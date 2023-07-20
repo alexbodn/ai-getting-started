@@ -86,7 +86,7 @@ Run the following command to generate embeddings and store them in Pinecone:
 npm run generate-embeddings-pinecone
 ```
 #### If using Supabase pgvector
-In `QAModel.tsx`, replace `/api/qa-pinecone` with `/api/qa-pg-vector`. Then run the following command to generate embeddings and store them in Supabase pgvector:
+In `QAModal.tsx`, replace `/api/qa-pinecone` with `/api/qa-pg-vector`. Then run the following command to generate embeddings and store them in Supabase pgvector:
 
 ```bash
 npm run generate-embeddings-supabase
